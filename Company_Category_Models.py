@@ -121,7 +121,6 @@ plt.plot(component,score_knn_new,"r-")
 plt.xlabel('Components')
 plt.ylabel('Accuracy score')
 
-
 ### Random Forest
 
 RF_Classifier = RandomForestClassifier(n_estimators = 10, random_state = 0)
