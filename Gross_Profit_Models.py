@@ -79,7 +79,6 @@ fold_accuracies = cross_val_score(clf1, X_norm, y, cv=kfold)
 print("Cross-validation score:\n{}".format(fold_accuracies))
 print("Average cross-validation score: {:.2f}".format(fold_accuracies.mean()))
 
-
 # Fitting Random Forest Regression to the dataset
 from sklearn.ensemble import RandomForestRegressor
 regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)
